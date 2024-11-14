@@ -1,0 +1,23 @@
+깃허브 - 웹 호스팅 서비스(원격, 클라우드)
+1. 계정 - 리포지터리 생성
+
+깃(Git) 소프트웨어(로컬)
+2. 설치
+3. 명령어 학습(command prompt)
+     git config user.name
+    - 아이디와 이메일 설정
+   
+   - git config --user.name "본인아이디"
+    - git config --user.name "본인이메일"
+
+  ** 초기 업로드
+    - git init
+    - git add .
+   - git commit -m "작업내용"
+    - git remote add origin 리포지터리 주소
+    - git push origin master
+    
+   ** 재 업로드
+   - git add .
+   - git commit -m "작업내용"
+    - git push origin master
